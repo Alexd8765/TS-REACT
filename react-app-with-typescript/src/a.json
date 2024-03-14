@@ -1,0 +1,27 @@
+[
+    {
+      "nick": "user123",
+      "months": 8,
+      "profileUrl": "https://example.com/user123",
+      "description": "Usuario activo y comprometido con la comunidad."
+    },
+    {
+      "nick": "coder456",
+      "months": 15,
+      "profileUrl": "https://example.com/coder456",
+      "description": "Apasionado por la programación y el desarrollo de software."
+    },
+    {
+      "nick": "dev789",
+      "months": 22,
+      "profileUrl": "https://example.com/dev789",
+      "description": "Desarrollador experimentado con habilidades en múltiples tecnologías."
+    },
+    {
+      "nick": "testuser",
+      "months": 5,
+      "profileUrl": "https://example.com/testuser",
+      "description": "Usuario de pruebas probando nuevas características."
+    }
+  ]
+  
