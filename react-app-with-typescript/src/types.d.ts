@@ -3,6 +3,8 @@
     avatar: string
     subMonths: number
     description?: string
+    gender: male | female; 
+
   }
 
 
@@ -11,4 +13,6 @@
     months: number
     profileUrl: string
     description?: string
+    gender: male | female;
+
   }>

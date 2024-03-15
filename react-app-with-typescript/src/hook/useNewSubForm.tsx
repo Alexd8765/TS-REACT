@@ -29,13 +29,13 @@ const formReducer = (state: FormState["inputValues"], action: FormReducerAction)
     }
 }
 
-const INITIAL_STATE = {
+const INITIAL_STATE: FormState["inputValues"] = {
     nick: '',
-    subMonths: 0,
+    subMonths: 0, // Asegúrate de que subMonths sea una cadena, ya que el valor se extrae de un input de tipo "text"
     avatar: '',
-    description: ''
+    description: '',
+    gender: ''
 }
-
 const useNewSubForm = () => {
     return useReducer(formReducer,INITIAL_STATE)
 }
